@@ -1,4 +1,4 @@
-.. _cloud-init:
+.. _cloudinit:
 
 Configuring Vyos with cloud-init
 ################################
