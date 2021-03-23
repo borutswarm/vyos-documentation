@@ -1,8 +1,8 @@
-.. _cloud-init:
-
-################################
-Configuring Vyos with cloud-init
-################################
+.. _cloud-init: 
+ 
+################################ 
+Configuring Vyos with cloud-init 
+################################ 
 
 Vyos uses cloud-init to configure itself automatically in cloud environments.
 
