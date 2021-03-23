@@ -8,8 +8,7 @@ Vyos uses cloud-init to configure itself automatically in cloud environments.
 
 There is a Meta-Data module `cc_vyos.py` that takes care of the cloud-specific configuration.
 
-Additional module `cc_vyos_userdata.py` introduces a new parameter `vyos_config_commands` into User-Data (`#cloud-config`). This parameter should be a list of VyOS configuration commands that will be applied during deployment.
-This module will run after last.
+Additional module `cc_vyos_userdata.py` introduces a new parameter `vyos_config_commands` into User-Data (`#cloud-config`). This parameter should be a list of VyOS configuration commands that will be applied during deployment. This module will run last.
 
 Commands requirements:
  - one command per line
